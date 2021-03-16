@@ -4,7 +4,7 @@ import { Injectable } from '@angular/core';
   providedIn: 'root'
 })
 export class UsersService {
-  /*activeUsers = ['Max', 'Anna'];
+  activeUsers = ['Max', 'Anna'];
   inactiveUsers = ['Chris', 'Manu'];
   constructor() { }
 
@@ -17,5 +17,5 @@ export class UsersService {
     this.activeUsers.push(this.inactiveUsers[id]);
     this.inactiveUsers.splice(id, 1);
   }
-  contar(){console.log("Hola");};*/
+  contar(){console.log("Hola");};
 }
